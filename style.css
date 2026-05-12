@@ -1,0 +1,228 @@
+* Reset de Estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /* Gradiente de fundo extraído da imagem */
+    background: linear-gradient(135deg, #305eb1 0%, #162d61 100%);
+    height: 100vh;
+    color: white;
+    overflow: hidden; /* Mantém a tela fixa como no slide */
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background: rgba(255, 255, 255, 0.05); /* Leve transparência no topo */
+}
+
+.icon-heart {
+    width: 40px;
+    filter: brightness(0) invert(1); /* Deixa o ícone branco */
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+.nav-icons {
+    font-size: 1.5rem;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    height: calc(100vh - 80px);
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 1.1;
+    margin-bottom: 10px;
+}
+
+.divider {
+    width: 100%;
+    border: 2px solid white;
+    margin-bottom: 50px;
+}
+
+/* Botão Cadastrar-se */
+.btn-cadastrar {
+    background-color: #67c2b8; /* Cor verde/azulada da imagem */
+    color: white;* Reset de Estilos */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    body {
+        /* Gradiente de fundo extraído da imagem */
+        background: linear-gradient(135deg, #305eb1 0%, #162d61 100%);
+        height: 100vh;
+        color: white;
+        overflow: hidden; /* Mantém a tela fixa como no slide */
+    }
+    
+    /* Navbar */
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 5%;
+        background: rgba(255, 255, 255, 0.05); /* Leve transparência no topo */
+    }
+    
+    .icon-heart {
+        width: 40px;
+        filter: brightness(0) invert(1); /* Deixa o ícone branco */
+    }
+    
+    .nav-links {
+        display: flex;
+        list-style: none;
+    }
+    
+    .nav-links li {
+        margin: 0 20px;
+    }
+    
+    .nav-links a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.1rem;
+        opacity: 0.9;
+    }
+    
+    .nav-icons {
+        font-size: 1.5rem;
+        display: flex;
+        gap: 20px;
+        cursor: pointer;
+    }
+    
+    /* Hero Section */
+    .hero-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 10%;
+        height: calc(100vh - 80px);
+    }
+    
+    .hero-content h1 {
+        font-size: 4rem;
+        font-weight: 400;
+        line-height: 1.1;
+        margin-bottom: 10px;
+    }
+    
+    .divider {
+        width: 100%;
+        border: 2px solid white;
+        margin-bottom: 50px;
+    }
+    
+    /* Botão Cadastrar-se */
+    .btn-cadastrar {
+        background-color: #67c2b8; /* Cor verde/azulada da imagem */
+        color: white;
+        border: 3px solid #b8e6e1; /* Borda clara externa */
+        padding: 15px 45px;
+        border-radius: 50px;
+        font-size: 1.5rem;
+        font-weight: 600;
+        cursor: pointer;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        transition: transform 0.2s;
+    }
+    
+    .btn-cadastrar:hover {
+        transform: scale(1.05);
+        background-color: #55a89f;
+    }
+    
+    /* Imagem da Profissional */
+    .image-container {
+        width: 380px;
+        height: 550px;
+        border-radius: 150px; /* Bordas arredondadas conforme o design */
+        overflow: hidden;
+        border: 5px solid rgba(255, 255, 255, 0.2);
+    }
+    
+    .image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Faz a foto preencher o container sem achatar */
+    }
+    
+    /* Responsividade Básica */
+    @media (max-width: 900px) {
+        .hero-section {
+            flex-direction: column;
+            text-align: center;
+            padding-top: 50px;
+        }
+        .hero-content h1 { font-size: 2.5rem; }
+        .image-container { width: 280px; height: 400px; margin-top: 30px; }
+        .nav-links { display: none; } /* Esconde menu em telas pequenas */
+    }
+    transform: scale(1.05);
+    background-color: #55a89f;
+}
+
+/* Imagem da Profissional */
+.image-container {
+    width: 380px;
+    height: 550px;
+    border-radius: 150px; /* Bordas arredondadas conforme o design */
+    overflow: hidden;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Faz a foto preencher o container sem achatar */
+}
+
+/* Responsividade Básica */
+@media (max-width: 900px) {
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .hero-content h1 { font-size: 2.5rem; }
+    .image-container { width: 280px; height: 400px; margin-top: 30px; }
+    .nav-links { display: none; } /* Esconde menu em telas pequenas */
+}
