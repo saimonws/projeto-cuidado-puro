@@ -155,7 +155,6 @@ body {
     .btn-cadastrar {
         background-color: #67c2b8; /* Cor verde/azulada da imagem */
         color: white;
-        border: 3px solid #b8e6e1; /* Borda clara externa */
         padding: 15px 45px;
         border-radius: 50px;
         font-size: 1.5rem;
